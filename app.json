@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "react-native-webrtc-example",
+    "slug": "react-native-webrtc-example",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.benhunt.reactnativewebrtcexample"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.benhunt.reactnativewebrtcexample"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
